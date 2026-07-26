@@ -37,7 +37,7 @@ DEFAULT_OPENAI_LEGACY_MODEL = 'gpt-3.5-turbo-instruct'
 # When set to true, we use our own templates and don't use the Ollama built-in templates.
 # Is is the only way to make this work reliable. As soon is this works also with Ollama
 # REST API reliable we can get rid of our own templates.
-USE_CUSTOM_TEMPLATE = True
+USE_CUSTOM_TEMPLATE = False
 log = None
 
 # Module-level constants for path and compiled regex
